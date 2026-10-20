@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <!-- Le titre de la page qui apparait sur l'onglet du navigateur -->
+    <title> Histoire du Web — Brève Chronologie et perspectives </title>
+<body>
+    <!-- Le titre de la page  -->
+    <h1> Histoire du Web — Brève Chronologie et perspectives </h1>
+
+    <!-- <header> <strong> Entête </strong> </header> -->	
+	
+	<!-- mark est utilise pour sourligner le texte, slide de reference : 74 - Chapitre 2 -->
+    <!-- bdi est utilise pour isoler le texte dans une direction de lecture differente, slide de reference : 76 - Chapitre 2 -->
+	<p>
+	    Document pédagogique long, détaillé et référencé présentant 
+        l'histoire conceptuelle et technique du World Wide Web 
+        (<mark> <bdi> شبكة الويب العالمية </bdi> </mark>), depuis les précurseurs intellectuels 
+        jusqu'aux projets de décentralisation et au Web sémantique. 
+        Il contient des contextes, des descriptions techniques, 
+        des acteurs clefs et des pistes pour l'avenir
+	</p>
+
+    <!-- Ajout de l'audio a la page en specifiant le chemin vers l'audio (ressources/music.mp3), slide de reference : 109 - Chapitre 2-->
+    <audio controls>
+        <source src="ressources/music.mp3" type="audio/mpeg"> 
+    </audio>
+	
+	<!-- Le MENU --> 
+	<nav>
+		<p id = "menu"> </p> <!-- La balise id pour ajouter des identifiants, slide de reference : 25 - Chapitre 3 -->
+		    <!-- <p> <strong> Menu </strong> </p> -->
+		    <!-- Ajout d'un lien hypertexte pour chaque sections, slide de reference : 92 - Chapitre 2 --> 
+            <ol>
+                <li> <a href = "#precursors"> Précurseurs et idées fondatrices </a> </li>
+                <li> <a href = "#creation"> Naissance du Web (Berners-Lee) et premières implémentations </a> </li>
+                <li> <a href = "#semantic"> Le Web sémantique, Linked Data et Solid </a> </li>
+                <li> <a href = "#resume"> Résumé & dates clées </a> </li>
+            </ol>
+		</id1> 
+	</nav>
+
+    <main> <!-- Le main est fait specialement pour contenir le contenu principal de la page -->
+        
+        <!-- <p> <strong> Corps </strong></p> -->
+		
+		<!-- Debut THEMATIQUE 1 --> 
+		
+        <section id = "precursors" > <!-- Chaque thématique a sa propre section -->
+            <nav>
+                <h2>
+				   <!-- Ajout de l'hypertexte pour la 1ere section, slide de reference : 92 - Chapitre 2 -->
+                   <ol>
+                      <li> Précurseurs et idées fondatrices </li>
+                   </ol>	
+				</h2>
+            </nav>
+			
+		    <!-- Ecriture en italique en utilisant la balise em, slide de reference : 69 - Chapitre 2-->
+            <!-- Utilisation de la balise small afin d'avoir un texte de petite taille, slide de reference : 70 - Chapitre 2 -->
+            <!-- Indication d'un texte supprime et ajoute avec la balise del et ins, slide de reference : 75 - Chapitre 2 -->
+			
+			<!-- Debut Article 1 -->
+			<article>
+			  <h3> Vannevar Bush (1945) — <em> <mark> As We May Think </mark> </em> et le Memex </h3>
+			  <p>
+			     En <del><mark> 1940</mark></del> <ins><mark> 1945</mark></ins>, Vannevar Bush publie l'article <em> <mark> As We May Think </mark> </em>
+                 dans lequel il décrit le <mark> <strong> Memex </strong> </mark>, un dispositif imaginaire
+                 destiné à stocker, lier et retrouver rapidement des documents et des notes. Bush imagine des 
+                 "trails" (chemins) qui relient des documents entre eux (Bush, Nelson, Engelbart) <small> <mark> un 
+                 concept très proche de l'hypertexte</small></mark>.
+			  </p>
+			  <!-- Ajout d'une image et texte alternatif (alt) , slide de reference : 100 - Chapitre 2, pour la hauteur la reference est w3schools -->
+			  <img src="ressources/Vannevar_Bush.jpg " alt="Vannevar Bush Portrait" height="250"/>
+			  
+			  <!-- Ajout d'une video, slide de reference : 107 - Chapitre 2 -->
+              <video width="350" height="240" controls>
+                  <source src="ressources/Memex_animation.mp4" type="video/mp4">
+              </video>
+			  
+			  <!-- Ajout de la legende, slide de reference : 104 - Chapitre 2, pour le lien la refenrece esr w3schools balise (<a>) -->
+              <figcaption>
+                  <mark> Source: </mark>  <mark> <a href="https://pt.wikipedia.org/wiki/Vannevar_Bush">  Wikipédia - Vannevar & Memex</a> </mark>
+              </figcaption>
+			  
+			  <p>
+			      Même si le Memex était davantage un appareil mécanique et optique que numérique, l'idée de <em> <mark> lier</mark> </em>
+                  l'information et de naviguer dans des réseaux de connaissances a profondément influencé les générations
+                  suivantes de chercheurs.
+			  </p>
+			  
+			  <p>
+			      Importances : <mark> le Memex</mark> a servi de référence conceptuelle pour les idées d'hypertexte et de recherche
+                  documentaire. Les notions de stockage associatif et de navigation non-linéaire y sont déjà présentes.
+			  </p>
+			  
+			</article>
+	        <!-- Fin Article 1 -->
+			
+			<!-- Debut Article 2 -->
+			<article>
+			   <h3> Ted Nelson — l'inventeur du terme "hypertexte" et le projet Xanadu </h3>
+			   <p>
+			      Dans les années 1960, Ted Nelson formalise le terme <strong><mark> hypertexte</mark></strong> et propose 
+                  le projet ambitieux <em><mark>Xanadu</mark></em>, qui vise à créer un système mondial de documents interconnectés, avec des liens 
+                  bidirectionnels, gestion des versions et micropaiements intégrés.
+			   </p>
+			   
+			   <!-- 1ere image -->
+               <img src="ressources/ted_nelson.PNG " alt="Ted Nelson Portrait" height="250"/>
+
+               <!-- 2eme image -->
+               <img src="ressources/hypertext.png " alt="Hypertext Illustration" height="250"/>
+			   
+			   <figcaption>
+                  <mark> Source: </mark>  <mark> <a href="https://fr.wikipedia.org/wiki/Ted_Nelson">  Wikipédia - Ted Nelson & Hypertext</a> </mark>
+               </figcaption>
+			   
+			   <p>
+			      Le projet Xanadu n'a jamais atteint une implémentation mondiale, mais il définit des idées fortes : <em> <mark> liens permanents, 
+                  traçabilité des citations, granularité fine des références</mark></em>. Ces concepts reviendront plus tard dans les discussions sur 
+                  l'archivage et la citation sur le Web.
+			   </p>
+			</article>
+			<!-- Fin Article 1 -->
+            <p> <a href = "#menu"> Retour au menu </a></p>
+			
+		<!-- Fin THEMATIQUE 1 --> 	
+        </section>
+        <hr> <!-- La balise hr pour le trait horizontal, slide de reference : 94 - Chapitre 2 -->
+
+
+        <!-- Debut THEMATIQUE 2 -->
+        <section> 
+            <nav>
+                <p id = "creation"> Thématique 2 </p>
+            </nav>
+        </section>
+        <hr>
+
+        <section> 
+            <nav>
+                <p id = "semantic"> Thématique 3 </p>
+            </nav>
+        </section>
+        <hr>
+
+        <section> 
+            <nav>
+                <p id = "resume"> Thématique 4 </p>
+            </nav>
+        </section>
+        <hr>
+
+    </main>
+
+    <footer> <strong> Pied de page </strong> </footer>
+    
+</body>
+</html>
