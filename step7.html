@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <!-- Le titre de la page qui apparait sur l'onglet du navigateur -->
+    <title> Histoire du Web — Brève Chronologie et perspectives </title>
+<body>
+    <!-- Le titre de la page  -->
+    <h1> Histoire du Web — Brève Chronologie et perspectives </h1>
+
+    <!-- <header> <strong> Entête </strong> </header> -->	
+	
+	<!-- mark est utilise pour sourligner le texte, slide de reference : 74 - Chapitre 2 -->
+    <!-- bdi est utilise pour isoler le texte dans une direction de lecture differente, slide de reference : 76 - Chapitre 2 -->
+	<p>
+	    Document pédagogique long, détaillé et référencé présentant 
+        l'histoire conceptuelle et technique du World Wide Web 
+        (<mark> <bdi> شبكة الويب العالمية </bdi> </mark>), depuis les précurseurs intellectuels 
+        jusqu'aux projets de décentralisation et au Web sémantique. 
+        Il contient des contextes, des descriptions techniques, 
+        des acteurs clefs et des pistes pour l'avenir
+	</p>
+
+    <!-- Ajout de l'audio a la page en specifiant le chemin vers l'audio (ressources/music.mp3), slide de reference : 109 - Chapitre 2-->
+    <audio controls>
+        <source src="ressources/music.mp3" type="audio/mpeg"> 
+    </audio>
+	
+	<!-- Le MENU --> 
+	<nav>
+		<p id = "menu"> </p> <!-- La balise id pour ajouter des identifiants, slide de reference : 25 - Chapitre 3 -->
+		    <!-- <p> <strong> Menu </strong> </p> -->
+		    <!-- Ajout d'un lien hypertexte pour chaque sections, slide de reference : 92 - Chapitre 2 --> 
+            <ol>
+                <li> <a href = "#precursors"> Précurseurs et idées fondatrices </a> </li>
+                <li> <a href = "#creation"> Naissance du Web (Berners-Lee) et premières implémentations </a> </li>
+                <li> <a href = "#semantic"> Le Web sémantique, Linked Data et Solid </a> </li>
+                <li> <a href = "#resume"> Résumé & dates clées </a> </li>
+            </ol>
+		</id1> 
+	</nav>
+
+    <main> <!-- Le main est fait specialement pour contenir le contenu principal de la page -->
+        
+        <!-- <p> <strong> Corps </strong></p> -->
+		
+		<!-- Debut THEMATIQUE 1 --> 
+		
+        <section id = "precursors" > <!-- Chaque thématique a sa propre section -->
+            <h2>
+				<!-- Ajout de l'hypertexte pour la 1ere section, slide de reference : 92 - Chapitre 2 -->
+                1. Précurseurs et idées fondatrices              	
+			</h2>
+			
+		    <!-- Ecriture en italique en utilisant la balise em, slide de reference : 69 - Chapitre 2-->
+            <!-- Utilisation de la balise small afin d'avoir un texte de petite taille, slide de reference : 70 - Chapitre 2 -->
+            <!-- Indication d'un texte supprime et ajoute avec la balise del et ins, slide de reference : 75 - Chapitre 2 -->
+			
+			<!-- Debut Article 1 -->
+			<article>
+			  <h3> Vannevar Bush (1945) — <em> <mark> As We May Think </mark> </em> et le Memex </h3>
+			  <p>
+			     En <del><mark> 1940</mark></del> <ins><mark> 1945</mark></ins>, Vannevar Bush publie l'article <em> <mark> As We May Think </mark> </em>
+                 dans lequel il décrit le <mark> <strong> Memex </strong> </mark>, un dispositif imaginaire
+                 destiné à stocker, lier et retrouver rapidement des documents et des notes. Bush imagine des 
+                 "trails" (chemins) qui relient des documents entre eux (Bush, Nelson, Engelbart) <small> <mark> un 
+                 concept très proche de l'hypertexte</small></mark>.
+			  </p>
+			  <!-- Ajout d'une image et texte alternatif (alt) , slide de reference : 100 - Chapitre 2, pour la hauteur la reference est w3schools -->
+			  <img src="ressources/Vannevar_Bush.jpg " alt="Vannevar Bush Portrait" height="250"/>
+			  
+			  <!-- Ajout d'une video, slide de reference : 107 - Chapitre 2 -->
+              <video width="350" height="240" controls>
+                  <source src="ressources/Memex_animation.mp4" type="video/mp4">
+              </video>
+			  
+			  <!-- Ajout de la legende, slide de reference : 104 - Chapitre 2, pour le lien la refenrece esr w3schools balise (<a>) -->
+              <figcaption>
+                  <mark> Source: </mark>  <mark> <a href="https://pt.wikipedia.org/wiki/Vannevar_Bush">  Wikipédia - Vannevar & Memex</a> </mark>
+              </figcaption>
+			  
+			  <p>
+			      Même si le Memex était davantage un appareil mécanique et optique que numérique, l'idée de <em> <mark> lier</mark> </em>
+                  l'information et de naviguer dans des réseaux de connaissances a profondément influencé les générations
+                  suivantes de chercheurs.
+			  </p>
+			  
+			  <p>
+			      Importances : <mark> le Memex</mark> a servi de référence conceptuelle pour les idées d'hypertexte et de recherche
+                  documentaire. Les notions de stockage associatif et de navigation non-linéaire y sont déjà présentes.
+			  </p>
+			  
+			</article>
+	        <!-- Fin Article 1 -->
+			
+			<!-- Debut Article 2 -->
+			<article>
+			   <h3> Ted Nelson — l'inventeur du terme "hypertexte" et le projet Xanadu </h3>
+			   <p>
+			      Dans les années 1960, Ted Nelson formalise le terme <strong><mark> hypertexte</mark></strong> et propose 
+                  le projet ambitieux <em><mark>Xanadu</mark></em>, qui vise à créer un système mondial de documents interconnectés, avec des liens 
+                  bidirectionnels, gestion des versions et micropaiements intégrés.
+			   </p>
+			   
+			   <!-- 1ere image -->
+               <img src="ressources/ted_nelson.PNG " alt="Ted Nelson Portrait" height="250"/>
+
+               <!-- 2eme image -->
+               <img src="ressources/hypertext.png " alt="Hypertext Illustration" height="250"/>
+			   
+			   <figcaption>
+                  <mark> Source: </mark>  <mark> <a href="https://fr.wikipedia.org/wiki/Ted_Nelson">  Wikipédia - Ted Nelson & Hypertext</a> </mark>
+               </figcaption>
+			   
+			   <p>
+			      Le projet Xanadu n'a jamais atteint une implémentation mondiale, mais il définit des idées fortes : <em> <mark> liens permanents, 
+                  traçabilité des citations, granularité fine des références</mark></em>. Ces concepts reviendront plus tard dans les discussions sur 
+                  l'archivage et la citation sur le Web.
+			   </p>
+			</article>
+			<!-- Fin Article 1 -->
+            <p> <a href = "#menu"> Retour au menu </a></p>
+			
+		<!-- Fin THEMATIQUE 1 --> 	
+        </section>
+        <hr> <!-- La balise hr pour le trait horizontal, slide de reference : 94 - Chapitre 2 -->
+
+
+        <!-- Debut THEMATIQUE 2 -->
+        <section id = "creation"> 
+            <h2>
+			    <!-- Ajout de l'hypertexte pour la 1ere section, slide de reference : 92 - Chapitre 2 -->
+                2. Naissance du Web — Tim Berners-Lee et premières implémentations 	
+			</h2>
+           
+            <!-- Debut Article 1 -->
+            <article>
+                <h3> 1989–1991 — Tim Berners-Lee au CERN : HTML, HTTP, URL </h3>
+                <p> 
+                    Tim Berners-Lee propose, au CERN, un système pour partager des documents entre chercheurs 
+                    en utilisant l'hypertexte et Internet. Il formalise trois composants essentiels :
+                </p>
+
+                <img src="ressources/Tim_Cern.jpg " alt="Tim Berners Lee (CERN)" height="250"/>
+
+                <figcaption>
+                    <mark> Source: </mark>  <mark> <a href="https://worldwideweb.cern.ch/history/">  History—WorldWideWeb NeXT Application </a> </mark>
+                </figcaption>
+
+                <!-- Ajout d'une liste a puce, slide de reference : 82 - Chapitre 2 -->
+                <ul>
+                    <li> <mark> <strong>HTML</strong></mark> (HyperText Markup Language) — format pour structurer documents et liens. </li>
+                    <li> <mark> <strong>HTTP</strong></mark> (HyperText Transfer Protocol) — protocole d'échange client/serveur. </li>
+                    <li> <mark> <strong>URI/URL</strong></mark> — mécanisme d'adressage des ressources sur le réseau. </li>
+                </ul>
+
+                Exemple d'un code HTML: <mark><code>&lt;p&gt; Hello World &lt;/p&gt;</code></mark> <br/>
+
+                <p>
+                    En 1991 la première page Web est mise en ligne. Berners-Lee publie des logiciels de serveur et de navigateur
+                    qui, même rudimentaires, permettent l'interconnexion de documents.
+                </p>
+            </article>
+            <!-- Fin Article 1 -->
+
+            <!-- Debut Article 2 -->
+            <article>
+                <h3> 1993–1994 — Premiers navigateurs graphiques : Mosaic et Netscape </h3>
+                <p>
+                    Le navigateur Mosaic (1993) popularise l'affichage graphique d'images et de textes mêlés ; il rend
+                    l'expérience Web utilisable par des non-spécialistes. Marc Andreessen, qui travaille sur Mosaic, fonde 
+                    Netscape, dont le navigateur popularise l'accès grand public. 
+                </p>
+
+                    <mark><strong> Conséquence : </strong></mark> </br>
+                    <mark> l'accessibilité et la convivialité</mark> des navigateurs déclenchent une croissance exponentielle du nombre de sites, 
+                    d'utilisateurs et d'entreprises Web.          
+            </article>
+            <!-- Fin Article 2 -->
+
+            <!-- Debut Article 3 -->
+             <article>
+                <h3> 1994–1996 — Standardisation et premiers moteurs de recherche </h3>
+
+                <!-- Ajout d'une abreviation abbr, slide de reference : 79 - Chapitre 2 -->
+                <p>
+                    À mesure que le Web se répand, la nécessité de standards devient impérative. Le <mark><abbr title ="World Wide Web Consortium">W3C</abbr></mark> est fondé (1994) par
+                    Berners-Lee pour promouvoir des standards ouverts (<mark>HTML, CSS, DOM, etc.</mark>). En parallèle, apparaissent les
+                    premiers moteurs de recherche et annuaires — Yahoo!, Lycos, Altavista — qui aident à découvrir du contenu.
+                </p>
+                <p>
+                    Les premières problématiques émergent : <u><mark>indexation</mark></u>, performance, sécurité, et modélisation des données sur le Web.
+                </p>
+             </article>
+             <!-- Fin Article 3 -->
+
+            <p> <a href = "#menu"> Retour au menu </a></p>
+
+        </section>
+        <!-- Fin THEMATIQUE 2 -->
+
+        <hr>
+
+        <!-- Debut THEMATIQUE 3 -->
+        <section id = "semantic"> 
+            <h2>
+                3. Sémantique du Web — RDF, OWL et le Web sémantique
+            </h2>
+
+            <!-- Debut Article 1 -->
+            <article>
+                <h3> Le Web sémantique : objectifs et composants </h3>
+
+                <p>
+                    Le Web sémantique vise à ajouter une couche de métadonnées et de signification aux 
+                    contenus Web afin que les machines puissent <mark><em>comprendre</em></mark> et raisonner sur les données. 
+                    Les technologies centrales incluent :
+                </p>
+
+                <ul>
+                    <li> <mark> <strong>RDF</strong></mark> (Resource Description Framework) : modèle de triplets pour représenter les données. </li>
+                    <li> <mark> <strong>OWL</strong></mark> : ontologies pour définir des vocabulaires et relations complexes. </li>
+                    <li> <mark> <strong>SPARQL</strong></mark> : langage de requête pour interroger des graphes RDF. </li>
+                    <li> <mark> <strong>Microformats</strong></mark> <mark>et <strong>JSON-LD</strong></mark> : moyens d'encoder des métadonnées dans les pages web. </li>
+                </ul>
+
+                <p>
+                    Le Web sémantique ambitionne d'améliorer l'interopérabilité des données et d'alimenter des agents 
+                    intelligents capables de combiner des sources hétérogènes.
+                </p>
+            </article>
+            <!-- Fin Article 1 -->
+
+            <!-- Debut Article 2 -->
+            <article>
+                <h3> Linked Data </h3>
+
+                <p> 
+                    Tim Berners-Lee a proposé des principes pour publier des données liées (Linked Data) : utiliser des URIs,
+                    fournir des descriptions, lier vers d'autres données. Ces principes favorisent la constitution d'un web de
+                    données (Data Web) où des ressources sont interconnectées sémantiquement.
+                </p>
+
+                <img src="ressources/LOD.png " alt="LOD evolution" height="250"/>
+
+                <figcaption>
+                    Source:  <mark> <a href="https://www.researchgate.net/figure/Growth-of-Linked-Open-Data-since-2007-1-The-amount-of-data-sets-published-as-LOD-have_fig2_331748480">  The Linked Data Wiki </a> </mark>
+                </figcaption>
+
+            </article>
+             <!-- Fin Article 2 -->
+
+             <!-- Debut Article 3 -->
+            <article>
+                <h3> Solid (Social Linked Data) </h3>
+
+                <!-- Ajout d'une citation, slide de reference : 79 - Chapitre 2-->
+                <mark><q>The Web as I envisaged it, we have not seen it yet.</q></mark>
+
+                <p>
+                    Solid est une initiative de Tim Berners-Lee visant à redonner le contrôle des données personnelles aux
+                    utilisateurs. L'idée : chaque utilisateur dispose d'un <mark> <strong>pod</strong></mark> (personal online data store) où il conserve ses
+                    données, et les applications accèdent aux données avec autorisation explicite. Solid combine les idées du Web
+                    sémantique et des Linked Data pour proposer une approche décentralisée et respectueuse de la vie privée.
+                </p>
+
+                <img src="ressources/solid.PNG" alt="Solid principle" height="250"/>
+
+                <figcaption>
+                    Source:  <mark> <a href="https://rubenverborgh.github.io/Solid-DeSemWeb-2018/">  Solid: Linked Data for personal data management </a> </mark>
+                </figcaption>
+
+                <p>
+                    <mark><strong>Avantages</strong></mark> : autonomie des utilisateurs, séparation des données et des services, interopérabilité des données
+                    via RDF/JSON-LD. Limites : adoption encore limitée, défis d'expérience utilisateur et d'infrastructure.
+                </p>
+
+                <mark><strong>Ruben Verborgh:</strong></mark> </br>
+
+                <div style="border: 1px solid black; width:300px"></style> 
+                    <mark>
+                        Three paradigm shifts we need to prepare for: </br>
+                        - End users become data controllers.</br>
+                        - Apps become views.</br>
+                        - Interfaces become queries.</br>
+                    </mark>
+                </div>
+            </article>
+              <!-- Fin Article 3 -->
+
+              <!-- Debut Article 4 -->
+            <article>
+                <h3> Cas d'usage du Web sémantique </h3>
+
+                <p>
+                    <mark><strong>Exemples</strong></mark>  <mark><strong>:</strong></mark> moteurs de recherche enrichis, 
+                    assistants vocaux, intégration de données scientifiques, catalogues de bibliothèques, et agrégation de 
+                    données ouvertes (open data) pour la recherche et l'administration.
+                </p>
+            </article>
+              <!-- Fin Article 4 -->
+
+            <p> <a href = "#menu"> Retour au menu </a></p>
+            
+        </section>
+        <!-- Fin THEMATIQUE 3 -->
+
+        <hr>
+
+        <!-- Debut THEMATIQUE 4 -->
+        <section id = "resume"> 
+            <h2>
+                5. Résumé et perspectives
+            </h2>
+
+            <!-- Ajout d'un tableau court, slide de reference : 119 - Chapitre 2 -->
+            <table>
+
+                <!-- 1ere ligne du tableau (en-tête)--> 
+                <tr>
+                    <th> Date </th> <!-- 1 ere colonne -->
+                    <th> Invention </th> <!-- 2 e colonne -->                     
+                </tr>
+
+                <!-- 2eme ligne du tableau (corps)-->
+                <tr>
+                    <td> 1945 </td>
+                    <td> Memex </td>
+                </tr>
+
+                <!-- 3eme ligne du tableau (corps) -->
+                <tr>
+                    <td> 1960 </td>
+                    <td> Hypertexte </td>
+                </tr>
+
+                <!-- 4eme ligne du tableau (corps)-->
+                <tr>
+                    <td> 1989 </td>
+                    <td> Web </td>
+                </tr>
+            </table>
+
+            <p> <a href = "#menu"> Retour au menu </a></p>
+
+        </section>
+        <!-- Fin THEMATIQUE 4 -->
+        <hr>
+
+    </main>
+
+    <footer> <strong> Pied de page </strong> </footer>
+    
+</body>
+</html>
